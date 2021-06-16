@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.head {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    min-width: 1200px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    /* width: 1200px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+.head h2 {
+    float: left;
+    margin: 0;
+    font-size: 32px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+.nav {
+    
+    float: right;
+    margin: 0 20px 0 0;
+    height: 80px;
+    
+}
+#lang {
+    color: #3787ff;
+}
+.nav li {
+    display: inline-block;
+    height: 75px;
+    line-height: 80px;
+    font-size: 20px;
+    padding: 0 20px;
+    
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+    transition: border-bottom .2s;
+}
+.nav li a{
+    line-height: 80px;
+}
+.nav li:hover {
+    border-bottom: 5px solid #3787ff;
+}
+.mainpage {
+    position: relative;
+    height: 600px;
+    width: 1200px;
+    /* background-color: #ccc; */
+}
+.mainpage .left {
+    position: absolute;
+    float: left;
+    height: 600px;
+    width: 600px;
+    /* background-color: #eee; */
+}
+.left h1{
+    margin-top: 120px;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+}
+.left h3 {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+.left a {
+    line-height: 48px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    height: 48px;
+    width: 180px;
+    font-size: 20px;
+    overflow: none;
+    border: 4px solid #000;
+    border-radius: 42px;
+    transition: border-color .5s,color .3s,box-shadow .7s;
+}
+.left a:hover {
+    border-color: #3787ff;
+    color: #3787ff;
+    box-shadow: 0px 0px 30px 2px rgba(55, 135, 255, 0.2);
+} 
+.mainpage {
+    background-image: url(res/images/首页大图.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.threebox {
+    height: 400px;
+    width: 1200px;
+}
+.threebox .box {
+    width: 400px;
+    height: 400px;
+    float: left;
+    transition: top 2s;
+}
+#box1 {
+    background-image: url("res/images/开源社区的自由.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#box2 {
+    background-image: url("res/images/简约美观的界面.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#box3 {
+    background-image: url("res/images/丰富多样的应用.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.threebox .box h4 {
+    margin-top: 180px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    text-align: center;
+}
+.threebox .box h4 span {
+    color: #3787ff;
+}
+.threebox .box p {
+    font-size: 18px;
+    text-align: center;
+}
+.downloadpage {
+    height: 600px;
+    width: 1200px;
+    background-image: url("res/images/下载页插图.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+}
+.downloadpage .left {
+    width: 500px;
+}
+.downloadpage .left h2,
+.aboutpage .left h2 {
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 12px;
+    margin-bottom: 60px;
+}
+.downloadpage .left h2 span ,
+.aboutpage .left h2 span{
+    color: #3787ff;
+}
+.downloadpage .left p {
+    margin-top: 70px;
+    text-align: center;
+}
+.aboutpage {
+    height: 600px;
+    width: 1200px;
+    background-image: url("res/images/关于页插图.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+}
+.aboutpage .left {
+    width: 500px;
+}
+.aboutpage .left p {
+    text-indent: 2em;
+    font-size: 20px;
+    line-height: 40px;
+}
