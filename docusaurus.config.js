@@ -26,7 +26,15 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog', 
+          label: 'Blog', 
+          position: 'left'
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://github.com/metanoia1989/spark-store-website',
           label: 'GitHub',
@@ -106,4 +114,8 @@ module.exports = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN', 'en'],
+  }
 };
