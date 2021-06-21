@@ -1,0 +1,1 @@
+(self.webpackChunkdoc=self.webpackChunkdoc||[]).push([[535],{6353:function(s){"use strict";s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Docusaurus 5\u5206\u949f\u6559\u7a0b","permalink":"/spark-store-website/blog/docusaurus-5-minutes"}]}')}}]);
