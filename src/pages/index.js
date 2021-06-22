@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Translate, { translate } from '@docusaurus/Translate'
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -17,10 +18,14 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/blog/docusaurus-5-minutes">
-            Docusaurus 5分钟教程  
+              <Translate
+                id="homepage.visitFiveMinuteTutorial"
+                description="查看五分钟快速教程"
+              >
+                {'点击查看5分钟快速教程'} 
+              </Translate>
           </Link>
         </div>
-        <p>这个还是页面内容，没有动到导航栏</p>
       </div>
     </header>
   );
