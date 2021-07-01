@@ -85,7 +85,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Spark Store, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -117,5 +117,6 @@ module.exports = {
   i18n: {
     defaultLocale: 'zh-CN',
     locales: ['zh-CN', 'en'],
-  }
+  },
+  plugins: [],
 };
